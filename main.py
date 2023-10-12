@@ -30,4 +30,4 @@ px.line(forecast, x='ds', y='yhat')
 figure = m.plot(forecast,xlabel="ds",ylabel="y") #black dot = price of stock
 figure2 = m.plot_components(forecast)
 
-st.plotly_chart(figure)
+st.plotly_chart(figure2)
